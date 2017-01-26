@@ -35,7 +35,7 @@ public class MyCookieServlet extends HttpServlet {
 	     String docType = "<!doctype html public \"-//w3c//dtd html 4.0 transitional//en\">\n";
 	     // Simple print writer out:
 	     pw.println(docType + "<html>\n<head><title>" + title + "</title>"
-	     		+ "</head>\n<body bgcolor=\"#f0f0f0\">\n<h1 align=\"center\">" + title + "</h1>\n<ul>\n  <li>"
+	     		+ "</head>\n<body bgcolor=\"#afaaaa\">\n<h1 align=\"center\">" + title + "</h1>\n<ul>\n  <li>"
 	     		+ "<b>First Name</b>: " + request.getParameter("fName") + "\n  <li><b>Last Name</b>: "
 	     		+ request.getParameter("lName") + "\n</ul>\n</body></html>");
 	}
